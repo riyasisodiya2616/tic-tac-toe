@@ -1,0 +1,103 @@
+@import url('https://fonts.cdnfonts.com/css/permanent-marker');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #5EB1BF;
+    color: #F4FFF8;
+    font-family: "permanent-marker";
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+#msg {
+    font-size: 3rem;
+    font-family: "cooper";
+}
+
+.msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+    color: #042A2B;
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    margin-top: 50px;
+    width: 350px;
+    height: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.big-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font-size: 5rem;
+    color: #000F08;
+    background-color: #042A2B;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.box:hover {
+    background-color: #F4FFF8;
+
+}
+
+#reset-btn:hover {
+    background-color: #fff4a4;
+}
+
+#reset-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #F4E04D;
+    color: #042A2B;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+#newGame {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #F4FFF8;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+#newGame:hover {
+    background-color: #153c42;
+}
+
+.hidden {
+    display: none;
+}
